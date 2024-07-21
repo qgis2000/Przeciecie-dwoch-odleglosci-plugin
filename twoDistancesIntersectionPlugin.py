@@ -177,7 +177,7 @@ class DistanceCapture:
             self.circleItem.setVisible(False)
             if self.cadDockWidget.constraintDistance().value()<=0:
                 iface.messageBar().pushWarning("Ostrzeżenie",'Odległość nie może być mniejsza lub równa 0.  \
-                    Proszę podać wartość większą od zera albu nacisnąć Esc aby opuścić panel. Jeśli chcesz anulować \
+                    Proszę podać wartość większą od zera albo nacisnąć Esc aby opuścić panel. Jeśli chcesz anulować \
                     wyznaczanie przecięcia naciśnij Esc drugi raz.')
         else:
             if self.isLocked==True:
