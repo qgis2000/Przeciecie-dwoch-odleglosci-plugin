@@ -13,7 +13,7 @@ tracker=https://github.com/qgis2000/Two-distances-intersection-plugin/issues
 repository=https://github.com/qgis2000/Two-distances-intersection-plugin
 qgisMinimumVersion=3.28
 author=Szymon Kędziora
-email=s9281723@gmail.com
+email=szymon.kedziora@onet.pl
 icon=thumbnail.png
 
 tags=vector,distance,intersection,circle,cad 
