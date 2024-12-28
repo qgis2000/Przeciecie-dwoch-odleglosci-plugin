@@ -1,6 +1,6 @@
 PRZECIĘCIE DWÓCH ODLEGŁOŚCI - WTYCZKA DLA APLIKACJI QGIS
 
-Wtyczka umożliwa uzyskanie przecięcia dwóch odległości (w kartezjańskim układzie 2D) i została stworzona w QGIS 3.28. Testowana w QGIS 3.28 i 3.34.
+Wtyczka umożliwa uzyskanie przecięcia dwóch odległości (w kartezjańskim układzie 2D). Testowana w QGIS 3.34.11
 
-Wersja 1.0.16 
+Wersja 1.0.17
 ![First look](firstLook.gif)
