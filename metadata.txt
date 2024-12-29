@@ -1,0 +1,28 @@
+[general]
+name=Przecięcie dwóch odległości
+
+description=Uzyskaj przecięcie dwóch odległości (w układzie kartezjańskim 2D)
+
+about=    Wtyczka instaluje jeden przycisk. Jest to narzędzie 2D i nie uwzględnia współrzędnych Z. Kliknij przycisk i zacznij od kliknięcia lewym przyciskiem myszy, przesuń mysz i kliknij prawym przyciskiem myszy, aby narysować odległość w kształcie koła. Wprowadź dwie odległości. Jeśli istnieją dwa przecięcia, można określić jedno. Wynikowe przecięcie jest wyświetlane zgodnie z geometrią warstwy. Warstwa punktowa tworzy punkt, warstwa linii tworzy dwa odcinki linii, a warstwa wielokątów tworzy trójkąt. Jeśli korzystasz z wtyczki i chcesz numerycznie wprowadzać odległości, wyświetl panel zaawansowanej digitalizacji z listy paneli w menu Widok QGIS.
+
+    Uwaga: Nie wszystkie układy współrzędnych pozwalają na wprowadzenie odległości w panelu zaawansowanej digitalizacji. Narzędzie jest przydatne przy pracy z układami współrzędnych 2D, na przykład dla Polski EPSG:2176, EPSG:2177, EPSG:2178, EPSG:2179.
+
+    Spakowane samouczki w kodzie HTML
+    https://github.com/szymon2024/Przeciecie-dwoch-odleglosci-plugin/raw/main/twodistancesintersectionplugin-1.0.18-docs-pl.zip
+    
+version=1.0.18
+homepage=https://github.com/szymon2024/Przeciecie-dwoch-odleglosci-plugin
+tracker=https://github.com/szymon2024/Przeciecie-dwoch-odleglosci-plugin/issues
+repository=https://github.com/szymon2024/Przeciecie-dwoch-odleglosci-plugin
+qgisMinimumVersion=3.28
+author=Szymon Kędziora
+email=szymon.kedziora@onet.pl
+icon=thumbnail.png
+
+tags=vector,distance,intersection,circle,cad 
+
+changelog=1.0.18
+    - QSettings zamieniono na QgsSettings
+    - zmieniono nazwy ustawień QGIS
+
+
